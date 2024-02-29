@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+
+body {
+    height: 2000px;
+}
+
+:root {
+
+    /* color    */
+
+    --background-color-light: #ffffff;
+    --background-color-dark: #000000;
+    --text-color-light: #ffffff;
+    --text-color-dark: #000000;
+    --color-grey-light: #C6C6C6;
+    --background-color-navlink-dark: #282828;
+    --background-color-navlink-light: #EAEAEA;
+
+    /* font-Size    */
+
+}
+
+body.dark {
+    background-color: var(--background-color-dark) !important;
+    color: var(--text-color-light) !important;
+
+    .WrapperLogo .LogoContent {
+        color: var(--text-color-light);
+    }
+
+    .MenuIcon {
+        color: var(--text-color-light);
+    }
+
+    .Dm {
+        color: var(--text-color-light);
+    }
+
+    .menu {
+        color: var(--text-color-light);
+    }
+
+
+    .title {
+        color: var(--text-color-light);
+    }
+
+    .line {
+        background-color: var(--background-color-light);
+    }
+
+    .NavLink {
+        background-color: var(--background-color-navlink-dark) !important;
+
+        Vector {
+            color: var(--text-color-light) !important;
+        }
+
+        .TitleContent a {
+            color: var(--text-color-light) !important;
+        }
+    }
+
+    .More {
+        background-color: var(--background-color-navlink-dark) !important;
+
+        a {
+            color: var(--text-color-light) !important;
+        }
+    }
+
+    .CtaResume {
+        background-color: var(--background-color-dark) !important;
+
+        .Save {
+            color: var(--text-color-light);
+        }
+    }
+
+
+
+
+}
+
+body.light {
+    background-color: var(--background-color-light) !important;
+    color: var(--text-color-dark) !important;
+
+    .MenuIcon {
+        color: var(--text-color-dark);
+    }
+
+    .Dm {
+        color: var(--text-color-dark);
+    }
+
+    .NavLink {
+        background-color: var(--background-color-navlink-light) !important;
+
+        img {
+            color: var(--text-color-dark) !important;
+        }
+
+
+        a {
+            color: var(--text-color-dark) !important;
+        }
+    }
+
+    .line {
+        background-color: var(--background-color-dark);
+    }
+
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Save {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 16px;
+}
+
+
+
+
+
+@media screen and (max-width:595px) {
+    .Title {
+        font-size: 21px;
+    }
+}
